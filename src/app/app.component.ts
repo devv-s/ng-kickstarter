@@ -10,4 +10,8 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'ng-kickstarter';
+
+  constructor() {
+    this.title = "Angular Kickstarter Project";
+  }
 }
